@@ -49,6 +49,7 @@ class PermissionFactory implements PermissionFactoryInterface
         $this->Add(new PermissionItem("create_" . $singular, $module, $group));
         $this->Add(new PermissionItem("edit_" . $singular, $module, $group));
         $this->Add(new PermissionItem("view_" . $singular, $module, $group));
+        $this->Add(new PermissionItem("delete_" . $singular, $module, $group));
         return $this;
 
     }
