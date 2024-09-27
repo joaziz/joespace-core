@@ -1,6 +1,7 @@
 {
   "name": "joespace/core",
   "version": "1.0.0",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "Joespace\\Core\\": "src/"
